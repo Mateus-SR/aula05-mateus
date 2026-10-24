@@ -22,6 +22,6 @@ test('distância negativa lança erro', () => {
   assert.throws(() => calcularFrete(-1), /distância inválida/);
 });
 
-test('frete da minha entrega de 18 km custa R$ 20', () => {
+test('frete da minha entrega de 13 km custa R$ 15', () => {
   assert.strictEqual(calcularFrete(13), 15);
 });
